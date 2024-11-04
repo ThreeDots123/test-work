@@ -4,7 +4,7 @@ export default function ProcedureMain() {
       <div
         className="relative min-h-[800px]"
         style={{
-          backgroundImage: "url(../../../public/contract-bg.jpg)",
+          backgroundImage: "url(../../../contract-bg.jpg)",
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
         }}

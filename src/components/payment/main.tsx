@@ -4,7 +4,7 @@ export default function PaymentMain() {
       <div
         className="min-h-[800px] relative"
         style={{
-          backgroundImage: "url(../../../public/payment-bg.jpg)",
+          backgroundImage: "url(../../../payment-bg.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           filter: "brightness(90%)",

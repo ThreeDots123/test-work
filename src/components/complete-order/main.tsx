@@ -29,7 +29,7 @@ export default function OrderMain() {
         <div
           className="min-h-[800px] relative lg:min-h-[1500px]"
           style={{
-            backgroundImage: "url(../../../public/place-order.jpg)",
+            backgroundImage: "url(../../../place-order.jpg)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             filter: "brightness(90%)",

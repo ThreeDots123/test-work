@@ -9,7 +9,7 @@ export default function ContactMain() {
         className="relative min-h-[1100px]"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../../../public/sugar-hero.jpg)",
+            "linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../../../sugar-hero.jpg)",
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",

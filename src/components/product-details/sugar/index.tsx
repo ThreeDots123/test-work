@@ -41,7 +41,7 @@ export default function SugarDetails() {
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
-            backgroundImage: "url(../../../public/sugar.jpg)",
+            backgroundImage: "url(../../../sugar.jpg)",
           }}
         >
           <div className="container pt-[200px] flex">

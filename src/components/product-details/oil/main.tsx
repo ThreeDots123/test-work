@@ -11,7 +11,7 @@ export default function OilMain() {
               <div
                 className="min-h-screen relative"
                 style={{
-                  backgroundImage: "url(../../../public/crude-oil.png)",
+                  backgroundImage: "url(../../../crude-oil.png)",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   filter: "brightness(90%)",
@@ -31,7 +31,7 @@ export default function OilMain() {
               <div
                 className="min-h-screen relative"
                 style={{
-                  backgroundImage: "url(../../../public/crude-oil-sec.png)",
+                  backgroundImage: "url(../../..//crude-oil-sec.png)",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   filter: "brightness(90%)",
@@ -51,7 +51,7 @@ export default function OilMain() {
               <div
                 className="min-h-screen relative"
                 style={{
-                  backgroundImage: "url(../../../public/crude-oil-third.png)",
+                  backgroundImage: "url(../../../crude-oil-third.png)",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   filter: "brightness(90%)",

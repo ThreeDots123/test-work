@@ -6,7 +6,7 @@ export default function AboutMain() {
       <header
         className="relative min-h-[1100px]"
         style={{
-          backgroundImage: "url(../../../public/about-img.jpg)",
+          backgroundImage: "url(../../../about-img.jpg)",
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",

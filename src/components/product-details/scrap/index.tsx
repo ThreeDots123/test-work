@@ -25,7 +25,7 @@ export default function ScrapDetails() {
         <div
           className="min-h-[50vh] relative"
           style={{
-            backgroundImage: "url(../../../public/scrap.jpg)",
+            backgroundImage: "url(../../../scrap.jpg)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             filter: "brightness(60%)",

@@ -14,7 +14,7 @@ export default function PricingMain() {
       <div
         className="relative min-h-[800px]"
         style={{
-          backgroundImage: "url(../../../public/pricing.jpg)",
+          backgroundImage: "url(../../../pricing.jpg)",
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
         }}

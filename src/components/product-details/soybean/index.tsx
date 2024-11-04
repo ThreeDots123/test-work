@@ -15,7 +15,7 @@ export default function SoybeanDetails() {
         <div
           className="min-h-[50vh] relative"
           style={{
-            backgroundImage: "url(../../../public/ore-bg.jpg)",
+            backgroundImage: "url(../../../ore-bg.jpg)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             filter: "brightness(60%)",

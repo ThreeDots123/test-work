@@ -14,7 +14,7 @@ export default function CopperDetails() {
       <div
         className="min-h-[800px] relative lg:min-h-[1500px]"
         style={{
-          backgroundImage: "url(../../../public/copper-bg.jpg)",
+          backgroundImage: "url(../../../copper-bg.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           filter: "brightness(90%)",

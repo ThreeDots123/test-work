@@ -5,7 +5,7 @@ export default function HeroSection() {
         className="relative h-[100dvh]"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../../public/hero-img.jpg)",
+            "linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../../hero-img.jpg)",
           backgroundSize: "100% 100%",
         }}
       >

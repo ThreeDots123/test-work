@@ -14,7 +14,7 @@ export default function OreDetails() {
       <div
         className="min-h-[800px] relative lg:min-h-[1500px]"
         style={{
-          backgroundImage: "url(../../../public/ore-bg.jpg)",
+          backgroundImage: "url(../../../ore-bg.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           filter: "brightness(90%)",
