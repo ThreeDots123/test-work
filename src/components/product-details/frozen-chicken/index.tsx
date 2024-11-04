@@ -26,7 +26,7 @@ export default function FrozenChickenDetails() {
         <div
           className="min-h-[50vh] relative"
           style={{
-            backgroundImage: "url(../../../public/chicken-bg.jpg)",
+            backgroundImage: "url(../../../chicken-bg.jpg)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             filter: "brightness(60%)",
