@@ -32,6 +32,7 @@ export default function OurProducts() {
           <ProductCard src="./ore.webp" url="/ore" name="Ore" />
           <ProductCard src="./copper.jpg" url="/copper" name="Copper" />
           <ProductCard src="./crude-oil.jpg" url="/crude" name="Oil" />
+          <ProductCard src="./coffee.jpg" url="/coffee" name="Coffee" />
           <ProductCard src="./soybean.jpg" url="/soybean" name="Soybean" />
           <ProductCard src="./scrap.jpg" url="/scrap" name="Scrap" />
         </div>

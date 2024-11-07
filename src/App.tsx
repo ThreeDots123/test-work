@@ -26,6 +26,7 @@ import Pricing from "./components/pricing";
 import Payment from "./components/payment";
 import CompleteOrder from "./components/complete-order";
 import AboutPage from "./components/about";
+import CoffeeDetails from "./components/product-details/coffee";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -37,6 +38,7 @@ const router = createBrowserRouter(
       <Route path="soybean" element={<SoybeanDetails />} />
       <Route path="scrap" element={<ScrapDetails />} />
       <Route path="crude" element={<Oil />} />
+      <Route path="coffee" element={<CoffeeDetails />} />
       <Route path="copper" element={<CopperDetails />} />
       <Route path="ore" element={<OreDetails />} />
       <Route path="chicken" element={<FrozenChickenDetails />} />
