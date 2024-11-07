@@ -1,4 +1,4 @@
-import { FaStar } from "react-icons/fa6";
+import { CheckCircle2Icon } from "lucide-react";
 
 export default function WhyChooseUs() {
   return (
@@ -10,9 +10,9 @@ export default function WhyChooseUs() {
         <div className="grid lg:grid-cols-3 md:grid-cols-2 mt-20 gap-x-5 gap-y-10">
           <div>
             <div className="text-center">
-              <FaStar
-                className="mx-auto mb-3 text-[#49A750] fill-[#49A750]"
-                size={40}
+              <CheckCircle2Icon
+                size={30}
+                className="inline text-[rgb(73,167,80)] mb-3"
               />
               <h3 className="text-center text-2xl font-semibold mb-1">
                 Variety Of Supply
@@ -27,9 +27,9 @@ export default function WhyChooseUs() {
 
           <div>
             <div className="text-center">
-              <FaStar
-                className="mx-auto mb-3 text-[#49A750] fill-[#49A750]"
-                size={40}
+              <CheckCircle2Icon
+                size={30}
+                className="inline text-[rgb(73,167,80)] mb-3"
               />
               <h3 className="text-center text-2xl font-semibold mb-1">
                 Quality Guarantee
@@ -43,9 +43,9 @@ export default function WhyChooseUs() {
 
           <div>
             <div className="text-center">
-              <FaStar
-                className="mx-auto mb-3 text-[#49A750] fill-[#49A750]"
-                size={40}
+              <CheckCircle2Icon
+                size={30}
+                className="inline text-[rgb(73,167,80)] mb-3"
               />
               <h3 className="text-center text-2xl font-semibold mb-1">
                 Logistics Efficiency
@@ -59,9 +59,9 @@ export default function WhyChooseUs() {
 
           <div>
             <div className="text-center">
-              <FaStar
-                className="mx-auto mb-3 text-[#49A750] fill-[#49A750]"
-                size={40}
+              <CheckCircle2Icon
+                size={30}
+                className="inline text-[rgb(73,167,80)] mb-3"
               />
               <h3 className="text-center text-2xl font-semibold mb-1">
                 Logistics Efficiency
@@ -75,9 +75,9 @@ export default function WhyChooseUs() {
 
           <div>
             <div className="text-center">
-              <FaStar
-                className="mx-auto mb-3 text-[#49A750] fill-[#49A750]"
-                size={40}
+              <CheckCircle2Icon
+                size={30}
+                className="inline text-[rgb(73,167,80)] mb-3"
               />
               <h3 className="text-center text-2xl font-semibold mb-1">
                 Sustainability and Responsibility

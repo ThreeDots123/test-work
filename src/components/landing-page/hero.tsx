@@ -5,13 +5,14 @@ export default function HeroSection() {
         className="relative h-[100dvh]"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../../hero-img.jpg)",
+            "linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../../home.jpg)",
           backgroundSize: "100% 100%",
         }}
       >
         <div className="absolute w-1/2 text-white max-md:w-4/5 mt-[200px] max-m:mx-6 mx-14">
-          <h1 className="lg:text-[5rem] max-lg:text-[2rem]">
-            Welcome to Brasil <span className="text-[#49A750]">Resources</span>
+          <h1 className="xl:text-[4rem] lg:text-[3rem] md:text-[2rem] sm:text-[2rem] text-[1.5rem] font-semibold">
+            Welcome to Minabrasil <br />
+            <span className="text-[#49A750]">Resources</span>
           </h1>
           <p>
             Welcome to the #1 ICUMSA 45 Sugar Export Company. Import directly

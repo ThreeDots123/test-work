@@ -7,7 +7,6 @@ import {
 import Footer from "./components/footer";
 import NavigationBar from "./components/navigation";
 import LandingPage from "./components/landing-page";
-import About from "./components/landing-page/about";
 import ProcedureForContract from "./components/procedure-for-contract";
 import Contact from "./components/contact";
 import SoybeanDetails from "./components/product-details/soybean";
@@ -26,12 +25,13 @@ import CaneSugar150 from "./components/product-details/sugar/150-cane-sugr";
 import Pricing from "./components/pricing";
 import Payment from "./components/payment";
 import CompleteOrder from "./components/complete-order";
+import AboutPage from "./components/about";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
       <Route path="/" element={<LandingPage />} />
-      <Route path="about" element={<About />} />
+      <Route path="about" element={<AboutPage />} />
       <Route path="procedure" element={<ProcedureForContract />} />
       <Route path="contact" element={<Contact />} />
       <Route path="soybean" element={<SoybeanDetails />} />

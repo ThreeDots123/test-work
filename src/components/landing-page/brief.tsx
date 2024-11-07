@@ -1,21 +1,21 @@
+import { CheckCircle2Icon } from "lucide-react";
+
 export default function Briefing() {
   return (
     <div className="pt-[30px] bg-white xl:flex container gap-5 pb-8">
       <div className="flex-[5]">
         <div className="max-xl:mx-auto w-fit">
-          <img
-            src="./hero-img.jpg"
-            className="md:w-[70%] h-[50%] object-cover"
-          />
+          <img src="./home.jpg" className="md:w-[70%] h-[50%] object-cover" />
           <p className="mt-3 text-3xl font-bold w-fit">
             Icumsa 45 Manufacturer
           </p>
         </div>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-y-6 gap-x-3">
           <div>
-            <span className="bg-[rgb(73,167,80)] text-xs text-white p-1.5 rounded-full w-fit h-fit">
-              ✔
-            </span>
+            <CheckCircle2Icon
+              size={20}
+              className="inline text-[rgb(73,167,80)]"
+            />
             <div className="inline ml-2">
               <strong>Unrivaled Quality:</strong>
               {
@@ -24,18 +24,20 @@ export default function Briefing() {
             </div>
           </div>
           <div>
-            <span className="bg-[rgb(73,167,80)] text-xs text-white p-1.5 rounded-full w-fit h-fit">
-              ✔
-            </span>
+            <CheckCircle2Icon
+              size={20}
+              className="inline text-[rgb(73,167,80)]"
+            />
             <div className="inline ml-2">
               <strong>Reliable Supply:</strong>
               {" We ensure a robust supply chain, guaranteeing on-time."}
             </div>
           </div>
           <div>
-            <span className="bg-[rgb(73,167,80)] text-xs text-white p-1.5 rounded-full w-fit h-fit">
-              ✔
-            </span>
+            <CheckCircle2Icon
+              size={20}
+              className="inline text-[rgb(73,167,80)]"
+            />
             <div className="inline ml-2">
               <strong>Sustainability:</strong>
               {
@@ -44,9 +46,10 @@ export default function Briefing() {
             </div>
           </div>
           <div>
-            <span className="bg-[rgb(73,167,80)] text-xs text-white p-1.5 rounded-full w-fit h-fit">
-              ✔
-            </span>
+            <CheckCircle2Icon
+              size={20}
+              className="inline text-[rgb(73,167,80)]"
+            />
             <div className="inline ml-2">
               <strong>Friendly Patnership:</strong>
               {
